@@ -1,10 +1,10 @@
 class Node
   attr_accessor :value
-  attr_accessor :next
+  attr_accessor :nextNode
 
-  def Node(value = nil, next = nil)
+  def initialize(value = nil, nextNode = nil)
     @value = value;
-    @next = next;
+    @nextNode = nextNode;
   end
 
 end
